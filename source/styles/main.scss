@@ -1,0 +1,73 @@
+@use 'variaveis.scss';
+
+body {
+font-family: Roboto, sans-serif;
+}
+
+.navbar {
+    background-color: variaveis.$corPrimaria;
+}
+#cabecalho .nav .nav-link.active,
+.btn-secondary {
+    background-color: variaveis.$corBkgButton;
+    color: variaveis.$corbranca;
+}
+
+.btn-secondary:hover{
+    background-color: variaveis.$corBkgButtonhover;
+}
+
+#cabecalho .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-artesanato .nav-link.active:hover {
+    color: variaveis.$corbranca;
+}
+
+.navbar-toggler {
+    background-color: #c20d5a35;
+    color: #f5c8bd66;
+}
+
+.section-title,
+.featurette-heading {
+    font-family: Pacifico, cursive;
+}
+
+.text-colored {
+    color: variaveis.$corBkgButton;
+}
+
+#sobre-a-loja,
+#artesanato {
+    background-color: variaveis.$corBackground;
+}
+
+
+.nav-artesanato .nav-link.active,
+#contato button {
+    background-color: variaveis.$corBkgButton;
+    color: variaveis.$corbranca;
+}
+
+
+
+.nav-artesanato .nav-link:hover {
+ color: variaveis.$corBkgButtonhover;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+    a {
+        text-decoration: none;
+    }
+
+}
+
+
+@media (max-width: 767px) {
+    .carousel-item img {
+    height: 280px;
+    }
+}
